@@ -11,6 +11,7 @@
 
 ### Repositórios da aplicação
 - [x] calcular o total das parcelas com um click
+- [x] Mostra o total
 
 
 ## :computer: Instalação ##
