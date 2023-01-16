@@ -1,0 +1,15 @@
+{
+  "name": "Total DAS MEI",
+  "version": "0.0.0.1",
+  "description": "Calcula o total de DAS em um período",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/emissao"
+      ],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 3
+}
