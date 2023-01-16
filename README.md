@@ -30,4 +30,10 @@ $ fica no canto superior direito
 
 # Selecione a pasta do projeto
 $ Clique na opção 'Carregar sem compactação'
+
+# Acesse a Página do PGMEI e coloque o CNPJ
+$ http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao
+
+# Acesse a página do DAS
+$ Clique em 'Emitir Guia de pagamento'
 ```
