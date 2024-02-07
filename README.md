@@ -3,8 +3,6 @@
 ## :dart: Objetivo
 #### Fazer cálculo do total
 - [x] parcelas de um período
-- [ ] *
-- [ ] *
 
 
 ## :white_check_mark: Requisitos

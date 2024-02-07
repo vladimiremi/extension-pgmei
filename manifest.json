@@ -1,15 +1,18 @@
 {
   "name": "Total DAS MEI",
-  "version": "0.0.0.1",
-  "description": "Calcula o total de DAS em um período",
+  "version": "0.0.1.2",
+  "description": "Calcula o valor total dos boletos gerados na plataforma oficial do PGMEI",
   "content_scripts": [
     {
       "matches": [
-        "http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/emissao"
+        "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/emissao"
       ],
-      "css": ["style.css"],
-      "js": ["content.js"]
+      "css": ["./src/css/style.css"],
+      "js": ["./src/js/content.js"]
     }
   ],
+  "icons": {
+    "128": "./src/icon/icon.png"
+  },
   "manifest_version": 3
 }
