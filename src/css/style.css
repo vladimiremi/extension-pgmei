@@ -1,0 +1,22 @@
+.customBTN {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+  font-size: 14px;
+  
+  vertical-align: middle;
+  background-color: #469c46;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
+  color: white;
+  font-weight: 400;
+  width: fit-content;
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.customBTN:hover {
+  background-color: #3c863c;
+  cursor: pointer;
+  color: white;
+}
